@@ -27,6 +27,6 @@ MainSection:NewButton("DexHub", "A legit one", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/HonestlyDex/DexHub/main/V3.lua"))()
 end)
 
-Section:NewButton("Owl Hub", "...", function()
+MainSection:NewButton("Owl Hub", "...", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
 end)
